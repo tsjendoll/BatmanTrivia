@@ -1,0 +1,464 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/question_1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/batman" />
+
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                style="@style/radio">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/michael_keaton" />
+
+                <RadioButton
+                    android:id="@+id/radio_Bruce_Wayne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bruce_wayne" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grayson" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clark_kent" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bob_kane" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            style="@style/radio">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lee" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kirby" />
+
+            <RadioButton
+                android:id="@+id/radio_Bob_Kane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bob_kane" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nolan" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clark_kent" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_Grayson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_margin"
+            android:layout_marginStart="@dimen/radio_margin"
+            android:text="@string/grayson" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Todd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_margin"
+            android:layout_marginStart="@dimen/radio_margin"
+            android:text="@string/j_todd" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Kelley"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_margin"
+            android:layout_marginStart="@dimen/radio_margin"
+            android:text="@string/carrie_kelley" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Brown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_margin"
+            android:layout_marginStart="@dimen/radio_margin"
+            android:text="@string/stephanie_brown" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Damian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_margin"
+            android:layout_marginStart="@dimen/radio_margin"
+            android:text="@string/damian_wayne" />
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/crime_alley"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/crime_alley" />
+
+            <RadioGroup
+                android:id="@+id/rg4"
+                style="@style/radio"
+                android:layout_alignEnd="@+id/crime_alley"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/crime_alley"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="38dp"
+                android:layout_marginRight="38dp">
+
+                <RadioButton
+                    android:id="@+id/radio_Joe_Chill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/joe_chill" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fisk" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/joker" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zsasz" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dent" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_5" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioGroup style="@style/radio">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/death_fam" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dk_returns" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flashpoint" />
+
+                <RadioButton
+                    android:id="@+id/radio_killing_joke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/killing_joke" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hush" />
+
+            </RadioGroup>
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/killing_joke" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_6" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitEnd"
+                android:src="@drawable/oracle" />
+
+            <RadioGroup style="@style/radio">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/overwatch" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/watcher" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trinity" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hot_wheels" />
+
+                <RadioButton
+                    android:id="@+id/radio_oracle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oracle" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_7" />
+
+        <RadioGroup style="@style/radio">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cobblepot" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/two_face" />
+
+            <RadioButton
+                android:id="@+id/radio_ras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ras" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/joker" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riddler" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:src="@drawable/batman_villains" />
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_8" />
+
+        <RadioGroup style="@style/radio">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/huntress" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_woman" />
+
+            <RadioButton
+                android:id="@+id/radio_Talia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/talia" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ivy" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stacey" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_9" />
+
+        <RadioGroup style="@style/radio">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frog" />
+
+            <RadioButton
+                android:id="@+id/radio_bat_cow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cow" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wolf" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/horse" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shark" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TriviaQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_10" />
+
+        <RadioGroup style="@style/radio">
+
+            <RadioButton
+                android:id="@+id/radio_Bane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bane" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/freeze" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/two_face" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clayface" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/croc" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:onClick="calculateScore"
+                android:text="@string/btn_submit" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

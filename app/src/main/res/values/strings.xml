@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Batman Trivia</string>
+
+    <!--- QUESTIONS -->
+    <string name="question_1">Batman is the alter-ego for which billionaire playboy?</string>
+    <string name="question_2">Who is the original creator of Batman?</string>
+    <string name="question_3">Which of the following characters have occupied the role as Robin? (Check all that apply)</string>
+    <string name="question_4">Who is generally thought to have shot and killed Batman\'s parents?</string>
+    <string name="question_5">In which comic does the Joker shoot and paralyze Barbara Gordon?</string>
+    <string name="question_6">After being shot, what was Barbara\'s nickname?</string>
+    <string name="question_7">Which villain is known for referring to Batman as \"Detective\"?</string>
+    <string name="question_8">Damian is the son of Bruce Wayne and whom?</string>
+    <string name="question_9">Which of the following exists in the comics?</string>
+    <string name="question_10">Which villain is credited with \"Breaking Batman\'s Back\"?</string>
+
+    <!-- NICKNAMES -->
+    <string name="oracle">Oracle</string>
+    <string name="overwatch">Overwatch</string>
+    <string name="trinity">Trinity</string>
+    <string name="watcher">Watcher</string>
+    <string name="hot_wheels">Hot Wheels</string>
+
+    <!--- BAT HYBRIDS -->
+    <string name="cow">Bat Cow</string>
+    <string name="frog">Bat Frog</string>
+    <string name="horse">Bat Horse</string>
+    <string name="shark">Bat Shark</string>
+    <string name="wolf">Bat Wolf</string>
+
+    <!--- People -->
+    <string name="dent" translatable="false">Harvey Dent</string>
+    <string name="bob_kane" translatable="false">Bob Kane</string>
+    <string name="bruce_wayne" translatable="false">Bruce Wayne</string>
+    <string name="michael_keaton" translatable="false">Michael Keaton</string>
+    <string name="clark_kent" translatable="false">Clark Kent</string>
+    <string name="lee" translatable="false">Stan Lee</string>
+    <string name="kirby" translatable="false">Jack Kirby</string>
+    <string name="nolan" translatable="false">Christopher Nolan</string>
+
+    <!--- ROBINS -->
+    <string name="grayson" translatable="false">Dick Grayson</string>
+    <string name="j_todd" translatable="false">Jason Todd</string>
+    <string name="carrie_kelley" translatable="false">Carrie Kelley</string>
+    <string name="tim_drake" translatable="false">Tim Drake</string>
+    <string name="stephanie_brown" translatable="false">Stephanie Brown</string>
+    <string name="damian_wayne" translatable="false">Damian Wayne</string>
+
+    <!--- COMICS -->
+    <string name="killing_joke">The Killing Joke</string>
+    <string name="dk_returns">The Dark Knight Returns</string>
+    <string name="death_fam">A Death in the Family</string>
+    <string name="flashpoint">Flashpoint</string>
+    <string name="hush">Batman: Hush</string>
+
+    <!--- HINTS -->
+    <string name="hint_1">You really should just give up now…</string>
+    <string name="hint_2">Christopher Nolan directed the Dark Knight Films…  Clark Kent is Superman…</string>
+    <string name="hint_3"> </string>
+    <string name="hint_4"></string>
+    <string name="hint_5"></string>
+    <string name="hint_6"></string>
+    <string name="hint_7"></string>
+    <string name="hint_8">She is also the mysterious leader of Leviathan.</string>
+    <string name="hint_9"></string>
+    <string name="hint_10"></string>
+
+    <!--- VILLAINS -->
+    <string name="clayface">Clayface</string>
+    <string name="two_face">Two Face</string>
+    <string name="bane" translatable="false">Bane</string>
+    <string name="croc">Killer Croc</string>
+
+    <string name="riddler">The Riddler</string>
+    <string name="cobblepot">The Penguin</string>
+    <string name="zsasz" translatable="false">Zsasz</string>
+    <string name="fisk" translatable="false">Wilson Fisk</string>
+    <string name="ras">Ra\'s al Ghul</string>
+
+    <!--- SUSPECTS -->
+    <string name="joe_chill" translatable="false">Joe Chill</string>
+    <string name="freeze" translatable="false">Mr. Freeze</string>
+    <string name="joker" translatable="false">The Joker</string>
+    <string name="reaper">The Reaper</string>
+
+    <!--- LADIES -->
+    <string name="talia" translatable="false">Talia al Ghul</string>
+    <string name="huntress" translatable="false">Helena Wayne</string>
+    <string name="cat_woman" translatable="false">Selina Kyle</string>
+    <string name="stacey" translatable="false">Gwen Stacey</string>
+    <string name="ivy">Poison Ivy</string>
+
+    <!-- BUTTON -->
+    <string name="btn_submit">Check my score!</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:icon">@color/icons</item>
+        <item name="android:divider">@color/divider</item>
+    </style>
+
+    <style name="TriviaQuestion">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">
+            @dimen/text_margin
+        </item>
+        <item name="android:layout_marginTop">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="radio">
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:layout_marginLeft">@dimen/radio_margin</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">
+            @dimen/radio_margin
+        </item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Theme.AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar" />
+
+
+</resources>

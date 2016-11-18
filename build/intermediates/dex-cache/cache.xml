@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="884c458bbd45646b0e133ea130845450c08fa7bc">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3a31d25acb1806d0fa6c1049b401419d809882c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_5be992beb787af89d1321ef8c9077b1ca8a6c8b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_5da127ba7e5541cbacaa1cb700c692012fe66b86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_cbbbc4e5fdfbd5309019b51c63d72a69bb9f24cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_e7190ca7e22c75240438f49ce47bdff249dc317b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_40dbc60c4bb8bb29c2e9ecdd7dbc9d4eb4f3beff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f99c6d6dab6dec80068b9cbf954a0fde38239535\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_dd80d4c0a56610cbce5b065f66755ac1388b6519\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_65ee3ef315eaaf8847f242e3337d0ae2d805be1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_45575a2ecf922aeb8099c5c36e451123fa5bcb42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_957f734af9b9a30a6b72d9acc6d33be31f70ee7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_7c71588b1f02bb112b261d14e180cdf4f4a52985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3c3d60e47d422f0b8cfccf8c501bcc30197db408\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e46f75606d9f2f947d8a9f6f21c09cea22041569\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="71ae0b469738a9d93a070b9bc997af5e984667ac">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b7d23e9249e5ec4732c32dae7a6ad9d502fddee3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_115e5826b917f172c8db0b789c4e87fff7d2dced\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Josh\AndroidStudioProjects\BatmanTrivia\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6d500c3e9e9caa6b9d88f26a9d722049fa820236\classes.dex" />
+    </item>
+
+</items>
