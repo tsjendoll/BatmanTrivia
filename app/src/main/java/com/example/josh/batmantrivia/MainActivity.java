@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calculateScore(View view) {
-        int score =0;
+        int score = 0;
 
         EditText editText = (EditText) findViewById(R.id.name_edit);
 
@@ -36,31 +36,36 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkBox_4 = (CheckBox) findViewById(R.id.checkbox_Kelley);
         CheckBox checkBox_5 = (CheckBox) findViewById(R.id.checkbox_Todd);
 
-        RadioButton[] radio_array = {rb1,rb2,rb3,rb4,rb5,rb6,rb7,rb8};
+        RadioButton[] radio_array = {rb1, rb2, rb3, rb4, rb5, rb6, rb7, rb8};
 
-        CheckBox[] checkbox_array = {checkBox_1,checkBox_2,checkBox_3,checkBox_4,checkBox_5};
+        CheckBox[] checkbox_array = {checkBox_1, checkBox_2, checkBox_3, checkBox_4, checkBox_5};
 
-        for (RadioButton rb:radio_array) {
+        for (RadioButton rb : radio_array) {
             if (rb.isChecked())
-                score ++;
+                score++;
         }
 
-        for (CheckBox checkbox:checkbox_array) {
-            if (checkbox.isChecked())
-                score ++;
+        if (checkBoxTest(checkbox_array)) {
+            score++;
         }
 
         if (editText.getText().toString().toUpperCase().equals("ORACLE")) {
             score++;
         }
 
-        if (score < 14) {
-            Toast.makeText(this, "You scored " + score + " out of 14", Toast.LENGTH_LONG).show();
+        if (score < 10) {
+            Toast.makeText(this, "You scored " + score + " out of 10", Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(this, "Congratulations!  A perfect score! 14 out of 14", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Congratulations!  A perfect score!", Toast.LENGTH_LONG).show();
         }
-
     }
 
+    private boolean checkBoxTest(CheckBox[] x) {
+        for (CheckBox checkbox : x) {
+            if (!checkbox.isChecked()) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
-
