@@ -257,47 +257,13 @@
             android:layout_height="wrap_content"
             android:text="@string/question_6" />
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitEnd"
-                android:src="@drawable/oracle" />
-
-            <RadioGroup style="@style/radio">
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/overwatch" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/watcher" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/trinity" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/hot_wheels" />
-
-                <RadioButton
-                    android:id="@+id/radio_oracle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/oracle" />
-
-            </RadioGroup>
-
-        </RelativeLayout>
+        <EditText
+            android:id="@+id/name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="@string/creator_hint"
+            android:inputType="textCapWords" />
 
         <TextView
             style="@style/TriviaQuestion"
@@ -456,6 +422,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
                 android:onClick="calculateScore"
                 android:text="@string/btn_submit" />
 

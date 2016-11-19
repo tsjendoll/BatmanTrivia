@@ -52,18 +52,6 @@
     <string name="flashpoint">Flashpoint</string>
     <string name="hush">Batman: Hush</string>
 
-    <!--- HINTS -->
-    <string name="hint_1">You really should just give up now…</string>
-    <string name="hint_2">Christopher Nolan directed the Dark Knight Films…  Clark Kent is Superman…</string>
-    <string name="hint_3"> </string>
-    <string name="hint_4"></string>
-    <string name="hint_5"></string>
-    <string name="hint_6"></string>
-    <string name="hint_7"></string>
-    <string name="hint_8">She is also the mysterious leader of Leviathan.</string>
-    <string name="hint_9"></string>
-    <string name="hint_10"></string>
-
     <!--- VILLAINS -->
     <string name="clayface">Clayface</string>
     <string name="two_face">Two Face</string>
@@ -71,6 +59,7 @@
     <string name="croc">Killer Croc</string>
 
     <string name="riddler">The Riddler</string>
+
     <string name="cobblepot">The Penguin</string>
     <string name="zsasz" translatable="false">Zsasz</string>
     <string name="fisk" translatable="false">Wilson Fisk</string>
@@ -91,5 +80,6 @@
 
     <!-- BUTTON -->
     <string name="btn_submit">Check my score!</string>
+    <string name="creator_hint">nickname</string>
 
 </resources>
